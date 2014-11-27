@@ -1,0 +1,115 @@
+/*Add Calculator App | Fiyin Adebayo
+One-on-One session with Prosper
+27th November, 2014 */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Tempus Sans ITC";
+  background-color: #fff5f5;
+}
+
+#main {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin: 10% auto;
+  padding: 2px;
+  border: 1px solid #3C0404;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 6px 5px #ccc;
+}
+
+header h2 {
+  font-size: 1.94em;
+  background-color: #3C0404;
+  margin: 0 auto;
+  color: #fff5f5;
+  padding: 10px;
+  border-radius: .65em;
+}
+
+#inlineComments {
+  margin: 30px auto 20px;
+  height: 40px;
+  color: #d00000;
+}
+
+#calculatorList {
+  text-decoration: none;
+}
+
+#calculatorList li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#firstNumber, 
+#secondNumber {
+  height: 30px;
+  width: 60px;
+  border-radius: 20%;
+  outline: none;
+  font-size: 1.243em;
+  text-align: center;
+  border: 1px solid maroon;
+}
+
+#firstNumber:active, 
+#secondNumber:active,
+#answer:active {
+  outline: 0;
+  background-color: #FFD0D0;
+}
+
+#firstNumber:focus, 
+#secondNumber:focus {
+  background-color: #FFD0D0;
+}
+
+#answer {
+  height: 60px;
+  width: 66px;
+  border-radius: 100%;
+  outline: none;
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid maroon;
+}
+
+#submit,
+#reset {
+  height: 50px;
+  width: 100px;
+  background-color: #3C0404;
+  color: #fff5f5;
+  margin-left: 20px;
+  margin-right: 20px;
+  outline: 0;
+  border-radius: .54em;
+  font-size: 1.3em;
+  font-family: "Tempus Sans ITC";
+  box-shadow: 0 7px 3px 0 #ccc;
+}
+
+#submit:hover,
+#reset:hover {
+  background-color: #7F0808;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: .85em;
+  font-weight: bolder;
+  background-color: #fff;
+  color: #3C0404;
+  border-radius: .65em;
+  padding: 6px;
+}
