@@ -56,6 +56,7 @@ var searchGitHub = {
                 }
                   searchGitHub.searchInput.prop("disabled", false);
                   searchGitHub.searchUsersButton.attr("disabled", false).val("Search");
+                  searchGitHub.searchInput.val("");
                 }; //end of searchFxn
                 $.getJSON(searchGitHub.searchURL, searchData, searchFxn);
                 // $.getJSON(searchGitHub.repoURL, searchData, repoFxn);
