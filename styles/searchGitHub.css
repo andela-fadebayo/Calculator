@@ -28,6 +28,13 @@ header h1 {
   color: #02140C;
 }
 
+#status {
+  margin: 0 auto;
+  text-align: center;
+  color: #ff0000;
+  height: 30px;
+}
+
 form {
   margin: 20px auto;
   padding: 10px;
@@ -36,7 +43,7 @@ form {
 
 form #searchField {
   height: 40px;
-  width: 500px;
+  width: 700px;
   outline: 0;
   border: 1px solid #ddd;
   border-radius: .7em;
@@ -47,16 +54,18 @@ form #searchField {
 
 form #searchField:focus {
   border: 1px solid #000;
+  background-color: #f8f8f8;
 }
 
-form #searchButton {
+form #searchUsersButton,
+#searchReposButton {
   height: 40px;
-  width: 150px;
+  width: 250px;
   outline: 0;
   border-radius: .6em;
   font-family: "courier new", "open sans";
   font-size: 1.55em;
-  margin-left: 20px;
+  margin: 0 40px 0 40px;
   background-color: #147C4F;
   color: #fff;
 }
@@ -74,9 +83,11 @@ form #searchButton:hover {
   list-style: none;
 }
 
-#results ul li {
-  /*border: 1px dashed green;*/
+.lists {
   display: inline-block;
+}
+
+#results ul li {
   margin: 20px;
   background-color: #eee;
   border-radius: .5em;
@@ -89,6 +100,16 @@ form #searchButton:hover {
 }
 
 #results ul li label {
+  font-family: courier;
+}
+
+#repoList {
+  margin: 0;
+  padding: 0;
+}
+
+#repoList li {
+  font-size: .75em;
   font-family: courier;
 }
 

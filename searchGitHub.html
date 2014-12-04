@@ -9,33 +9,44 @@
   <div id="main">
     <header>
       <h1>GitHub Users Information</h1>
-      <p>Looking for great stuffs on GitHub? Search for users here...</p>
+      <p>Looking for great stuffs on GitHub? Search for users and repositories here...</p>
     </header>
+
+    <div id="status">
+    </div>
 
     <div id="search">
       <form id="searchForm">
-        <input type="text" id="searchField" placeholder="Enter a GitHub username..." />
-        <input type="submit" value="Search" id="searchButton" />
+        <input type="text" id="searchField" placeholder="Enter a GitHub username..." /><br /><br />
+        <input type="submit" value="Search Users" id="searchUsersButton" />
+        <input type="button" value="Search Repos" id="searchReposButton" />
       </form>
     </div>
 
     <div id="results">
-      <!-- <ul>
-        <li><img src="andela-43.jpg" alt="andela pix 1" /><br /><br />
+      <!-- <ul id="resultsList">
+        <li class="lists"><img src="images/andela-43.jpg" alt="andela pix 1" /><br /><br />
             Login: <label>andela-username</label><br />
             id: <label>1234567</label><br />
             Score: <label>24.473824</label><br />
             Type: <label>User</label><br />
-            <a href="https://github.com/andela">Open Profile</a>
+            <a href="https://github.com/andela">Open Profile</a><br /><br />
+
+            <ol id="repoList">Repositories:
+              <li>Exercises<br /><a href="https://github.com/andela-fadebayo/Exercises">View Repo</a></li>
+              <li>GoogleClone<br /><a href="https://github.com/andela-fadebayo/GoogleClone">View Repo</a></li>
+              <li>HotCold<br /><a href="https://github.com/andela-fadebayo/HotCold">View Repo</a></li>
+            </ol>
+
         </li>
-        <li><img src="andela-44.jpg" alt="andela pix 2" /><br /><br />
+        <li class="lists"><img src="images/andela-44.jpg" alt="andela pix 2" /><br /><br />
             Login: <label>my_username</label><br />
             id: <label>1234567</label><br />
             Score: <label>24.473824</label><br />
             Type: <label>User</label><br />
             <a href="https://github.com/andela">Open Profile</a>
-        </li>
-      </ul> -->
+        </li> -->
+      </ul>
     </div>
 
     <footer>
