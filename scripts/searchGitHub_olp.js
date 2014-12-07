@@ -14,7 +14,7 @@ var searchGitHub = {
           },
 
   initialize: function () {
-                $('form').submit(function(evt) {
+                $('form').submit(function (evt) {
                   evt.preventDefault();
 
                   if (searchGitHub.searchInput.val() === "") {
@@ -56,7 +56,7 @@ var searchGitHub = {
                   searchGitHub.searchInput.val("");
                 }; //end of searchFxn
                 $.getJSON(searchGitHub.searchURL, searchData, searchFxn);
-                }//end of if-else
+                }//end of validation if-else
                 }); //end of form submit function
               },
 
